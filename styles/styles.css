@@ -8,6 +8,10 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+caption {
+    font-size: 1.4rem;
+}
+
 table,
 th,
 td {
