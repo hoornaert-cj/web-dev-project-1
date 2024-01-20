@@ -6,7 +6,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #2E282A;
-  background-color: #fff;
+  background-color: #F0F7EE;
 }
 
 h1,
@@ -89,7 +89,7 @@ a:focus {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #822B66;
+  background-color: #591441;
 }
 
 .site-logo {
@@ -98,6 +98,7 @@ a:focus {
 
 .site-logo img {
   padding-left: 1rem;
+  width: 5.5rem;
 }
 
 .site-navigation a {
@@ -115,3 +116,32 @@ a:focus {
   list-style-type: none;
   padding-right: 1rem;
 }
+
+/*ABOUT */
+
+.title-image {
+  position: relative;
+  display: block;
+	object-fit: cover;
+  margin: 0;
+  padding: 0;
+	width: 100%; 
+}
+
+.bg-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  /* z-index: 1; */
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-text {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  /* z-index: 2; */
+  width: 15rem;
+} 
