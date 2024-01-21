@@ -150,10 +150,8 @@ intro-img {
 
 /* Main
 --------------------------------------------- */
-/* Page Header */
 
-
-/* Section: About */
+/* Section: About Me */
 .section-about h2 {
 	text-align: center;
 	padding-top: 1.25rem;
@@ -164,6 +162,21 @@ intro-img {
 	margin: 0 auto;
 	text-align: left;
 	padding-bottom: 1.25rem;
+}
+
+/* Section: Projects */
+.projects-wrapper {
+  margin: 0 auto;
+}
+
+section-projects {
+  display: flex;
+	flex-direction: column;
+	padding: 1.2rem;
+}
+
+.projects {
+
 }
 
 /* Footer
