@@ -7,10 +7,14 @@
 	.st1{fill:none;stroke:#000000;stroke-width:1.022;stroke-miterlimit:10;}
 	.st2{fill:#003249;stroke:#F0F7EE;stroke-width:10.4886;stroke-miterlimit:10;}
 	.st3{fill:#003249;stroke:#F0F7EE;stroke-width:8.4431;stroke-miterlimit:10;}
+	.st4{fill:#F0F7EE;stroke:#003249;stroke-width:2;stroke-miterlimit:10;}
+	.st5{font-family:'GillSans-UltraBold';}
+	.st6{font-size:32px;}
 </style>
-<ellipse class="st0" cx="262" cy="256" rx="262" ry="190.5"/>
-<rect x="524.32" y="311.36" style="fill:none;" width="3.88" height="0.78"/>
+<ellipse class="st0" cx="-294" cy="256" rx="262" ry="190.5"/>
+<rect x="-31.68" y="311.36" style="fill:none;" width="3.88" height="0.78"/>
 <circle class="st1" cx="443.5" cy="16.5" r="3"/>
+<circle class="st1" cx="-112.5" cy="16.5" r="3"/>
 <g>
 	
 		<image style="overflow:visible;opacity:0.75;" width="547" height="309" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiMAAAE1CAYAAAA1TeCqAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
@@ -520,23 +524,23 @@ XZ3hIkTHOPM72bYz9h+NRqOXaWDkfdW9t7tPs5w5+fRV+fHshv7R28/6zmg0Gl1CAyOfRzv3+sj8
 lKO/fVWdOSn0CEAMfIxGo7fROzUSo56O3Ps7uB2P1LOHTAY8RqPRW+sdG4rRns7KC58xT50JCwMe
 o9Ho0+kzNhyjnh6ZR66a/54BBAMdo9Fo9F9dtTEYXV+Td2oa6BiNRqNE06CMHqXPkLcGNEaj0egE
 fYYGY3RPPTpvDkiMRqPRaDQajUaj0Wg0Go1Go9FoNBqNRqPRaDQajUaj0Wj0Iv1/cw+0OX1iGkQA
-AAAASUVORK5CYII=" transform="matrix(1 0 0 1 -18 108)">
+AAAASUVORK5CYII=" transform="matrix(1 0 0 1 -574 108)">
 	</image>
 	<g>
 		<g>
 			<g>
 				<g>
-					<path class="st2" d="M245.28,154.01c4.99,2.31,6.8,8.08,4.01,12.83l-37.6,64.02c-2.79,4.74-9.46,7.65-14.83,6.47
+					<path class="st2" d="M-310.72,154.01c4.99,2.31,6.8,8.08,4.01,12.83l-37.6,64.02c-2.79,4.74-9.46,7.65-14.83,6.47
 						c0,0-19.58-4.33-36.45-4.33c-24.18,0-36.26,5.88-36.26,17.64c0,5.63,3.37,10.03,10.12,13.19c6.75,3.17,16.36,4.75,28.84,4.75
 						c16.87,0,33.95-5.22,33.95-5.22c5.26-1.61,11.73,1.02,14.37,5.85l38.12,69.61c2.64,4.82,0.68,10.57-4.36,12.77
 						c0,0-20.63,9.02-39.75,13.34c-19.12,4.32-37.38,6.48-54.81,6.48c-43.74,0-78.56-11.28-104.48-33.85
 						c-25.92-22.56-38.87-50.33-38.87-83.3c0-34.88,13.49-63.65,40.48-86.32c26.98-22.67,61.28-34,102.88-34
-						c17.99,0,36.57,2.19,55.74,6.56C225.54,144.87,245.28,154.01,245.28,154.01z"/>
+						c17.99,0,36.57,2.19,55.74,6.56C-330.46,144.87-310.72,154.01-310.72,154.01z"/>
 				</g>
 			</g>
-			<g id="H_00000129183180908237768190000000275035189196338844_">
+			<g id="H_00000092426940492693114850000001155149781531059114_">
 				<g>
-					<path class="st3" d="M346.01,334.67c0,5.5-4.5,10-10,10h-71.77c-5.5,0-10-4.5-10-10V169.46c0-5.5,4.5-10,10-10h71.77
+					<path class="st3" d="M-209.99,334.67c0,5.5-4.5,10-10,10h-71.77c-5.5,0-10-4.5-10-10V169.46c0-5.5,4.5-10,10-10h71.77
 						c5.5,0,10,4.5,10,10v47.85c0,5.5,4.5,10,10,10h26.7c5.5,0,10-4.5,10-10v-47.85c0-5.5,4.5-10,10-10h71.77c5.5,0,10,4.5,10,10
 						v165.21c0,5.5-4.5,10-10,10h-71.77c-5.5,0-10-4.5-10-10v-48.82c0-5.5-4.5-10-10-10h-26.7c-5.5,0-10,4.5-10,10V334.67z"/>
 				</g>
@@ -544,4 +548,5 @@ AAAASUVORK5CYII=" transform="matrix(1 0 0 1 -18 108)">
 		</g>
 	</g>
 </g>
+<text transform="matrix(1 0 0 1 22.8457 230.231)" class="st4 st5 st6">Hello, my name is Chris</text>
 </svg>
