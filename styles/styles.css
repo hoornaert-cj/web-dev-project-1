@@ -153,7 +153,8 @@ intro-img {
 
 /* Section: About Me */
 .about-content {
-  background-color: #fff;
+  background-color: #003249;
+  color: #F0F7EE;
 }
 
 .section-about h2 {
@@ -208,6 +209,9 @@ footer {
   color: #fff;
   margin-top: 1rem;
   padding-top: 1rem;
+  display: flex;
+	flex-direction: column;
+	text-align: left;
 }
 
 footer p {
