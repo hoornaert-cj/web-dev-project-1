@@ -152,6 +152,10 @@ intro-img {
 --------------------------------------------- */
 
 /* Section: About Me */
+.about-content {
+  background-color: #fff;
+}
+
 .section-about h2 {
 	text-align: center;
 	padding-top: 1.25rem;
@@ -169,10 +173,15 @@ intro-img {
   margin: 0 auto;
 }
 
+
 section-projects {
   display: flex;
 	flex-direction: column;
 	padding: 1.2rem;
+}
+
+.section-projects h2 {
+  text-align: center;
 }
 
 .projects {
@@ -186,6 +195,10 @@ section-projects {
   background-color: #fff;
 	margin-bottom: 1rem;
 	max-width:  18.75rem;
+}
+
+.project-link {
+    text-align: center;
 }
 
 /* Footer
