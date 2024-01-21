@@ -176,7 +176,16 @@ section-projects {
 }
 
 .projects {
-
+  border-width:1.5px;
+	border-style:solid;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+	border-color:#591441;
+  border-width: 3px;
+  box-shadow: 10px 5px 5px #7c7d7d;
+  background-color: #fff;
+	margin-bottom: 1rem;
+	max-width:  18.75rem;
 }
 
 /* Footer
