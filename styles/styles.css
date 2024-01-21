@@ -191,10 +191,10 @@ section-projects {
   border-bottom-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
 	border-color:#591441;
-  border-width: 3px;
-  box-shadow: 10px 5px 5px #7c7d7d;
+  border-width: 1.5px;
+  box-shadow: 5px 5px 5px #7c7d7d;
   background-color: #fff;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	max-width:  18.75rem;
 }
 
@@ -202,18 +202,25 @@ section-projects {
     text-align: center;
 }
 
+/* Contact 
+--------------------------------------------- */
+.contact-info {
+  
+}
+
 /* Footer
 --------------------------------------------- */
 footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
   background-color: #591441;
   color: #fff;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  display: flex;
-	flex-direction: column;
-	text-align: left;
+  margin-top: 0;
 }
 
 footer p {
-  padding-left: 1rem;
+  padding: 0;
 }
+
