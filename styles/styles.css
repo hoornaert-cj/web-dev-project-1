@@ -205,7 +205,32 @@ section-projects {
 /* Contact 
 --------------------------------------------- */
 .contact-info {
-  
+  width: 100%;
+  background-color: #003249;
+  color: #fff;
+  padding: 1rem;
+}
+
+.contact-info h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* style the Contact Me button */
+.contact-me-btn {
+  display: block;
+	width: 10rem;
+	padding: 0.75rem;
+	background-color: #591441;
+	color: #f0f7ee;
+	text-align: center;
+	font-size: 1.125rem;
+  font-weight: 900;
+  border-radius: 0.5rem;
+  outline: 3px solid #f0f7ee;
+  /* align the email button in the center of the page */
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 /* Footer
