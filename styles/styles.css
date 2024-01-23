@@ -178,6 +178,7 @@ a:focus {
   /* text outline added using code from Kinsta.com */
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #003249;
+  margin-bottom: 0;
 }
 
 .intro-bg {
@@ -193,7 +194,7 @@ a:focus {
 /* change the font size at 696 pixels (43.5rem) */
 @media (min-width: 43.5rem) {
   .title-image p {
-    font-size: 4rem;
+    font-size: 3rem;
     -webkit-text-stroke-width: 2px;
     /* add a text shadow */
     text-shadow: 2px 2px 2px #b4b3b3;
@@ -202,7 +203,7 @@ a:focus {
 /* change the font size at 800 pixels (50rem) */
 @media (min-width: 50rem) {
   .title-image p {
-    font-size: 5.5rem;
+    font-size: 4rem;
     -webkit-text-stroke-width: 3px;
     /* add a text shadow */
     text-shadow: 3px 3px 3px #b4b3b3;
@@ -217,10 +218,13 @@ a:focus {
 .about-content {
   background-color: #003249;
   color: #F0F7EE;
+  margin: 0;
 }
 
 .section-about h2 {
 	text-align: center;
+  padding-top: 2rem;
+  margin:0;
 }
 
 .section-about p {
@@ -228,7 +232,6 @@ a:focus {
 	margin: 0 auto;
 	text-align: left;
 	padding-bottom: 1.25rem;
-  margin-top: 1.5rem;
 }
 
 /* Section: Projects */
