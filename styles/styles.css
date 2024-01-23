@@ -122,12 +122,29 @@ a:focus {
 
 .title-image {
   /* display: block; */
-	position: relative;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-	width: 100%; 
+  /* background image based on a search of Stack Overflow */
+  max-width: 100%;
+  background-image: url("../images/fields.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  /* put the text in a flexbox to so that the text is justified to the center horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-image p {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  color: #f0f7ee;
+  font-weight:bold;
+  text-align: center;
+
+ 
+  /* text outline added using code from Kinsta.com */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #003249;
 }
 
 .intro-bg {
@@ -140,13 +157,6 @@ a:focus {
   display: block;
 }
 
-intro-img {
-  position: absolute;
-  top: 30px;
-  left:30px;
-  /* height: auto;
-  display: block; */
-}
 
 /* Main
 --------------------------------------------- */
@@ -159,7 +169,6 @@ intro-img {
 
 .section-about h2 {
 	text-align: center;
-	padding-top: 1.25rem;
 }
 
 .section-about p {
@@ -167,6 +176,7 @@ intro-img {
 	margin: 0 auto;
 	text-align: left;
 	padding-bottom: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 /* Section: Projects */

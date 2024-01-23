@@ -1,3 +1,9 @@
 #591441 (Purple) 591441
 #003249 003249 (Prussian Blue)
 #f0f7ee f0f7ee (Cream)
+
+media needed:
+
+header logo and links
+font text "Hello, I am Chris", and -webkit-text-stroke-width (should be changed from 1.5 to 3px)
+projects needs flexbox
