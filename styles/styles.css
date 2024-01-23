@@ -21,8 +21,7 @@ h6 {
 }
 
 h1 {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 p {
@@ -60,7 +59,7 @@ aside {
 --------------------------------------------- */
 a,
 a:visited { 
-	color: #008000;
+	color: #003249;
 	text-decoration: none;
 }
 
@@ -68,6 +67,7 @@ a:hover,
 a:focus,
 a:active {
 	text-decoration: underline;
+  background-color: #003249;
 }
 
 a:focus {
@@ -193,7 +193,7 @@ a:focus {
 /* change the font size at 696 pixels (43.5rem) */
 @media (min-width: 43.5rem) {
   .title-image p {
-    font-size: 3rem;
+    font-size: 4rem;
     -webkit-text-stroke-width: 2px;
     /* add a text shadow */
     text-shadow: 2px 2px 2px #b4b3b3;
@@ -202,7 +202,7 @@ a:focus {
 /* change the font size at 800 pixels (50rem) */
 @media (min-width: 50rem) {
   .title-image p {
-    font-size: 4rem;
+    font-size: 5.5rem;
     -webkit-text-stroke-width: 3px;
     /* add a text shadow */
     text-shadow: 3px 3px 3px #b4b3b3;
@@ -266,12 +266,31 @@ section-projects {
     text-align: center;
 }
 
+@media (min-width: 43.5rem) {
+  .projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+    gap: 1.5rem;
+    align-content: space-between;
+  }
+
+  /* .projects {
+    margin-right: 1rem;
+  } */
+
+
+  .section-projects {
+    padding: 1.5rem;
+  }
+
+}
+
 /* Contact 
 --------------------------------------------- */
 .contact-info {
   width: 100%;
-  background-color: #003249;
-  color: #fff;
   padding: 1rem;
 }
 
@@ -285,8 +304,8 @@ section-projects {
   display: block;
 	width: 10rem;
 	padding: 0.75rem;
-	background-color: #591441;
-	color: #f0f7ee;
+	background-color: #003249;
+	color: #fff;
 	text-align: center;
 	font-size: 1.125rem;
   font-weight: 900;
@@ -295,6 +314,12 @@ section-projects {
   /* align the email button in the center of the page */
   margin: 0 auto;
   margin-bottom: 1rem;
+}
+
+.contact-me-btn:hover {
+  background-color: #f0f7ee;
+  color: #003249;
+  outline: 3px solid #003249;
 }
 
 /* Footer
