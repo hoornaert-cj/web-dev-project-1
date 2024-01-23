@@ -91,6 +91,7 @@ a:focus {
   align-items: center;
   justify-content: space-between;
   background-color: #591441;
+  min-height: 6.5rem;
 }
 
 .site-logo {
@@ -118,6 +119,40 @@ a:focus {
   padding-right: 1rem;
 }
 
+@media (min-width: 43.5rem) {
+  /* enlarge the site logo */
+  .site-logo img {
+    padding-left: 1rem;
+    width: 7.5rem;
+  }
+
+  /* change the navigation links from columns to rows */
+  .site-navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  /* enlarge the font when the screen is 43.5rem to 49.9rem */
+  .site-navigation a {
+  font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 50rem) {
+  /* enlarge the site logo for sites larger than 50rem*/
+  .site-logo img {
+    padding-left: 1rem;
+    width: 8.5rem;
+  }
+
+
+  /* enlarge the font when the screen is 43.5rem to 49.9rem */
+  .site-navigation a {
+  font-size: 1.4rem;
+  }
+}
+
 /*ABOUT */
 
 .title-image {
@@ -140,10 +175,8 @@ a:focus {
   color: #f0f7ee;
   font-weight:bold;
   text-align: center;
-
- 
   /* text outline added using code from Kinsta.com */
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #003249;
 }
 
@@ -155,6 +188,25 @@ a:focus {
   position: relative;
   /* height: auto; */
   display: block;
+}
+
+/* change the font size at 696 pixels (43.5rem) */
+@media (min-width: 43.5rem) {
+  .title-image p {
+    font-size: 3rem;
+    -webkit-text-stroke-width: 2px;
+    /* add a text shadow */
+    text-shadow: 2px 2px 2px #b4b3b3;
+  }
+}
+/* change the font size at 800 pixels (50rem) */
+@media (min-width: 50rem) {
+  .title-image p {
+    font-size: 4rem;
+    -webkit-text-stroke-width: 3px;
+    /* add a text shadow */
+    text-shadow: 3px 3px 3px #b4b3b3;
+  }
 }
 
 
@@ -189,6 +241,7 @@ section-projects {
   display: flex;
 	flex-direction: column;
 	padding: 1.2rem;
+
 }
 
 .section-projects h2 {
@@ -204,6 +257,7 @@ section-projects {
   border-width: 1.5px;
   box-shadow: 5px 5px 5px #7c7d7d;
   background-color: #fff;
+  margin: 0 auto;
 	margin-bottom: 1.5rem;
 	max-width:  18.75rem;
 }
