@@ -272,12 +272,15 @@ section-projects {
 @media (min-width: 43.5rem) {
   .projects-wrapper {
     display: flex;
-    flex-wrap: wrap;
+		flex-wrap: wrap;
 		flex-direction: row;
-		justify-content: center;
-    gap: 1.5rem;
-    align-content: space-between;
+		justify-content:space-evenly;
+    /* column-gap: 1.5rem; */
+		gap: 2rem;
+    margin: 0 auto;
   }
+
+  
 
   /* .projects {
     margin-right: 1rem;
