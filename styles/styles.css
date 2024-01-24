@@ -119,7 +119,7 @@ a:focus {
   padding-right: 1rem;
 }
 
-@media (min-width: 43.5rem) {
+@media (min-width: 43.5em) {
   /* enlarge the site logo */
   .site-logo img {
     padding-left: 1rem;
@@ -133,13 +133,13 @@ a:focus {
     justify-content: space-evenly;
   }
 
-  /* enlarge the font when the screen is 43.5rem to 49.9rem */
+  /* enlarge the font when the screen is 43.5em to 49.9em */
   .site-navigation a {
   font-size: 1.2rem;
   }
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 50em) {
   /* enlarge the site logo for sites larger than 50rem*/
   .site-logo img {
     padding-left: 1rem;
@@ -191,8 +191,8 @@ a:focus {
   display: block;
 }
 
-/* change the font size at 696 pixels (43.5rem) */
-@media (min-width: 43.5rem) {
+/* change the font size at 696 pixels (43.5em) */
+@media (min-width: 43.5em) {
   .title-image p {
     font-size: 3rem;
     -webkit-text-stroke-width: 2px;
@@ -200,8 +200,8 @@ a:focus {
     text-shadow: 2px 2px 2px #b4b3b3;
   }
 }
-/* change the font size at 800 pixels (50rem) */
-@media (min-width: 50rem) {
+/* change the font size at 800 pixels (50em) */
+@media (min-width: 50em) {
   .title-image p {
     font-size: 4rem;
     -webkit-text-stroke-width: 3px;
