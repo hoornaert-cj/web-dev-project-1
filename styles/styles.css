@@ -269,7 +269,7 @@ section-projects {
     text-align: center;
 }
 
-@media (min-width: 43.5rem) {
+@media (min-width: 43.5em) {
   .projects-wrapper {
     display: flex;
 		flex-wrap: wrap;
