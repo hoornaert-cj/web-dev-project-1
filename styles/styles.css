@@ -76,6 +76,7 @@ a:focus,
 a:active {
 	text-decoration: underline;
   background-color: #BBC5AA;
+  color: #090C02;
 }
 
 a:focus {
@@ -183,7 +184,7 @@ a:focus {
   color: #fafafa;
   font-weight:bold;
   text-align: center;
-  /* text outline added using code from Kinsta.com */
+  /* text outline added using code modified from Kinsta.com */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #090C02;
   text-shadow:  0px 4px #090C02, 
@@ -202,7 +203,7 @@ a:focus {
   display: block;
 }
 
-/* change the font size at 696 pixels (43.5em) */
+/* change the font size at 696 pixels (33.5em) */
 @media (min-width: 33.5em) {
   .title-image p {
     font-size: 3rem;
@@ -286,25 +287,25 @@ section-projects {
 
 @media (min-width: 43.5em) {
   .projects-wrapper {
-    display: flex;
+    /* display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
-		justify-content:space-evenly;
-    /* column-gap: 1.5rem; */
-		gap: 2rem;
-    margin: 0 auto;
+		justify-content:space-around; 
+		gap: 10%; 
+    margin: 0 auto; */
+
+    display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
   }
 
-  
+.projects {
+  margin: 1rem;
+}
 
-  /* .projects {
-    margin-right: 1rem;
-  } */
-
-
-  .section-projects {
+  /* .section-projects {
     padding: 1.5rem;
-  }
+  } */
 
 }
 
@@ -338,7 +339,7 @@ section-projects {
 }
 
 .contact-me-btn:hover {
-  background-color: #090C02 ;
+  background-color: #4f1820 ;
   color: #fff;
   outline: 3px solid #BBC5AA;
 }
