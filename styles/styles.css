@@ -281,19 +281,17 @@ section-projects {
 	max-width:  18.75rem;
 }
 
+/* reduce the opacity when the user hovers over the projects box */
+.projects:hover {
+  opacity: 0.8;
+}
+
 .project-link {
     text-align: center;
 }
 
 @media (min-width: 43.5em) {
   .projects-wrapper {
-    /* display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		justify-content:space-around; 
-		gap: 10%; 
-    margin: 0 auto; */
-
     display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
