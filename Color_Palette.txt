@@ -2,8 +2,16 @@
 #003249 003249 (Prussian Blue)
 #f0f7ee f0f7ee (Cream)
 
-media needed:
+#084B83 084B83 Indigo Dye
+#42BFDD 42BFDD Aero Blue
+#FFEDE1 FFEDE1 Linen
 
-header logo and links
-font text "Hello, I am Chris", and -webkit-text-stroke-width (should be changed from 1.5 to 3px)
-projects needs flexbox
+Blue #17586E 17586E
+Orange #85400F 85400F
+Snow #FFFCFF FFFCFF
+
+#76232F 76232F WINE
+BBC5AA BBC5AA ASH GREY
+#090C02 090C02 SMOKY BLACK
+#E6EED6 E6EED6 BEIGE
+
