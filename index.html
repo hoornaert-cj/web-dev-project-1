@@ -15,6 +15,9 @@
     <!-- add the CSS style information -->
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- add the script for the mobile dropdown menu -->
+    <script src="scripts/navigation.js" defer></script>
+
 </head>
 
 <body id = "top">
@@ -26,12 +29,22 @@
             <img src="images/ch_logo.png" alt="Site logo">
         </a>
     
-        <nav class="site-navigation">
-            <ul>
+        <nav class="site-navigation" id="site-navigation">
+
+            <button class="menu-toggle" aria-controls="header-menu" aria-expanded="false" aria-label="Menu Toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                    <title>Menu Icon</title>
+                    <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"></path>
+                </svg>
+            </button>
+
+            <ul class="nav-menu" id="header-menu">  
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
             </ul>
+
         </nav>
 
     </header>
@@ -44,7 +57,7 @@
         <section class="about-content">
             <section class="section-about">
                 <h2 id="about">About Me</h2>
-                <p>I come from a Geographic Information Systems (GIS) background. I have worked as a GIS Specialist for organizations such as the University of British Columbia Fisheries Centre, Esri Canada, and the Maricopa County Assessor's Office. I am very interested in building web-mapping applications am looking to gain the knowledge needed to bring those envisioned we-mapping applications to life. To add any needed web development skills to my arsenal, I am currently a student in the BCIT Front-end Web Development Progam and this a just a sample of the work I am doing. </p>
+                <p>I come from a Geographic Information Systems (GIS) background. I have worked as a GIS Specialist for organizations such as the University of British Columbia Fisheries Centre, Esri Canada, and the Maricopa County Assessor's Office. I am very interested in building web-mapping applications and am looking to gain the knowledge needed to bring such applications to life. I am currently a student in the BCIT Front-End Web Developer progam and this a just a sample of the work I am doing here. </p>
         </section>
         </div>
 
@@ -58,7 +71,7 @@
                     <img class="project-image" src="images/project-country.jpg" alt="A satellite image of North America">
                     <div class="project-text">
                         <h2 class="project-name">Country Website</h2>
-                        <p class="project-link" href=#>Coming soon</p>
+                        <p class="project-link">Coming soon</p>
                     </div>
                 </article>
 
@@ -67,7 +80,7 @@
                     <img class="project-image" src="images/project-movie.jpg" alt="A side view of an old-fashioned movie theater">
                     <div class="project-text">
                         <h2 class="project-name">Movie Database</h2>
-                        <p class="project-link" src=#>Coming soon</p>
+                        <p class="project-link">Coming soon</p>
                     </div>
                 </article>
 
@@ -76,7 +89,7 @@
                     <img class="project-image" src="images/project-js-game.jpg" alt="This photo shows a person using a pinball machine">
                     <div class="project-text">
                         <h2 class="project-name">JavaScript Game</h2>
-                        <p class="project-link" src=#>Coming soon</p>
+                        <p class="project-link">Coming soon</p>
                     </div>
                 </article>
 
@@ -85,7 +98,7 @@
                     <img class="project-image" src="images/projects-wordpress.jpg" alt="This photo shows a person using a laptop to search for images">
                     <div class="project-text">
                         <h2 class="project-name">WordPress Sites</h2>
-                        <p class="project-link" src=#>Coming soon</p>
+                        <p class="project-link">Coming soon</p>
                     </div>
                 </article>
 
@@ -94,7 +107,7 @@
                     <img class="project-image" src="images/project-online-store.jpg" alt="This photo shows a person using a smartphone to search for clothing">
                     <div class="project-text">
                         <h2 class="project-name">Online Stores</h2>
-                        <p class="project-link" src=#>Coming soon</p>
+                        <p class="project-link">Coming soon</p>
                     </div>
                 </article>
 
@@ -103,7 +116,7 @@
                     <img class="project-image" src="images/project-blog.jpg" alt="This photo shows a a typewriter surrounded by plants looking at a nearby apartment building">
                     <div class="project-text">
                         <h2 class="project-name">Blog</h2>
-                        <p class="project-link" src=#>Coming soon</p>
+                        <p class="project-link">Coming soon</p>
                     </div>
                 </article>
         </div>
@@ -111,7 +124,7 @@
         </section>
 
         <section class="contact-info">
-            <h2>Contact</h2>
+            <h2 id="contact-me">Contact</h2>
             <a class="contact-me-btn" href = "mailto: cj.hoornaert@gmail.com">Email Me</a>
         </section>
     </main>

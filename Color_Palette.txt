@@ -15,3 +15,5 @@ Snow #FFFCFF FFFCFF
 #090C02 090C02 SMOKY BLACK
 #E6EED6 E6EED6 BEIGE
 
+I tried to add a link to the Projects section using code from several sites, including https://mykeyelements.com/how-to-make-a-section-clickable/, but was unable to get it to work, so this effort was abandoned.
+

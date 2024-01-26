@@ -71,12 +71,11 @@ a:visited {
 	text-decoration: none;
 }
 
-a:hover,
+nav a:hover,
 a:focus,
 a:active {
 	text-decoration: underline;
-  background-color: #BBC5AA;
-  color: #090C02;
+  opacity: 0.8;
 }
 
 a:focus {
@@ -112,6 +111,26 @@ a:focus {
   width: 6.5rem;
 }
 
+.site-navigation ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	display: none;
+	position: absolute;
+	top: 6.5rem;  /* Matches the height of the .site-header */
+	left: 0;
+	right: 0;
+	z-index: 2;
+	background-color: #4f1820;
+}
+
+
+.site-navigation.toggled ul {
+	display: block;
+  background-color: #090C02;
+}
+
 .site-navigation a {
   display: block;
   /* padding: 0.5rem 0.5rem; */
@@ -120,7 +139,18 @@ a:focus {
   font-weight: 300;
   text-decoration: none;
   color: #fff;
+}
 
+.menu-toggle {
+	display: block;
+	background-color: transparent;
+	border: 0;
+	padding: 1rem;
+}
+
+.menu-toggle:focus {
+	border: 0;
+	outline: 1px dotted;
 }
 
 .site-navigation ul li {
@@ -135,12 +165,27 @@ a:focus {
     width: 7.5rem;
   }
 
-  /* change the navigation links from columns to rows */
+  /* hide the hamburger  */
+  .menu-toggle {
+		display: none;
+	}
+
+  change the navigation links from columns to rows
   .site-navigation ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  
+  .site-navigation ul,
+	.site-navigation.toggled ul {
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+		top: 0;
+    background-color: #4f1820;
+	}
 
   /* enlarge the font when the screen is 43.5em to 49.9em */
   .site-navigation a {
@@ -155,6 +200,10 @@ a:focus {
     width: 8.5rem;
   }
 
+  /* hide the hamburger  */
+  .menu-toggle {
+		display: none;
+	}
 
   /* enlarge the font when the screen is 43.5rem to 49.9rem */
   .site-navigation a {
