@@ -118,10 +118,7 @@ a:focus {
 	text-align: center;
 	display: none;
 	position: absolute;
-	top: 6.5rem;  /* Matches the height of the .site-header */
-	left: 0;
-	right: 0;
-	z-index: 2;
+	top: 6.5rem; 
 	background-color: #4f1820;
 }
 
@@ -308,8 +305,7 @@ a:focus {
 section-projects {
   display: flex;
 	flex-direction: column;
-	padding: 1.2rem;
-
+	padding-right: 1.2rem;
 }
 
 .section-projects h2 {
@@ -344,6 +340,11 @@ section-projects {
     display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+  }
+
+  .section-projects {
+    margin: 0 auto;
+    max-width: 65rem;
   }
 
 .projects {
