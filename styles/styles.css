@@ -37,25 +37,6 @@ p {
 }
 
 
-table,
-th,
-td {
-  border-collapse: collapse;
-  text-align: center; 
-}
-
-table {
-  border: 0.25rem solid;
-}
-
-th {
-  border: 0.1rem solid;
-}
-
-td {
-  border: 0.05rem solid;
-}
-
 /* Elements
 --------------------------------------------- */
 section,
@@ -67,7 +48,7 @@ aside {
 --------------------------------------------- */
 a,
 a:visited { 
-	color: #BBC5AA;
+	color: #090C02;
 	text-decoration: none;
 }
 
@@ -103,7 +84,7 @@ a:focus {
 }
 
 .site-logo {
-  padding: none
+  padding: 0;
 }
 
 .site-logo img {
